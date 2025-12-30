@@ -14,13 +14,13 @@ public partial class TBLSTOKFIYAT
     [Key]
     public int ID { get; set; }
 
-    public string FIYAT_GRUBU { get; set; } = null!;
+    public string FIYAT_GRUBU { get; set; } = null!; //GEREKSİZ
 
-    public string STOK_KODU { get; set; } = null!;
+    public string STOK_KODU { get; set; } = null!; //STOK TABLOSU
 
-    public string TIP { get; set; } = null!;
+    public string TIP { get; set; } = null!; //BU LAZIM GEĞİL SONRA EKLENEBİLİR
 
-    public string? OLCU_BIRIM { get; set; }
+    public string? OLCU_BIRIM { get; set; } //GEREK YOK
 
     public double? FIYAT1 { get; set; }
 
