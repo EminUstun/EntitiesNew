@@ -14,8 +14,6 @@ public partial class TBLSTOKFIYAT
     [Key]
     public int ID { get; set; }
 
-    public int SUBE_KODU { get; set; }
-
     public string FIYAT_GRUBU { get; set; } = null!;
 
     public string STOK_KODU { get; set; } = null!;
