@@ -13,13 +13,13 @@ public partial class TBLSTOK
     [Key]
     public string STOK_KODU { get; set; } = null!;
 
-    public int SUBE_KODU { get; set; }
+    public int SUBE_KODU { get; set; } //GEREKSİZ
 
-    public string? STOK_ADI { get; set; }
+    public string? STOK_ADI { get; set; } 
 
-    public double KDV_ORANI { get; set; }
+    public double KDV_ORANI { get; set; } //FİYAT OLUŞTURURKEN
 
-    public string? DETAY_KODU { get; set; }
+    public string? DETAY_KODU { get; set; } 
 
     public int DEPO_KODU { get; set; }
 
